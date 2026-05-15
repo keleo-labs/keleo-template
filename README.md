@@ -1,10 +1,10 @@
 # keleo-template
 
-A template repository for creating and organizing software engineering practices and methods using the [Keleo Studio](https://github.com/keleo-labs/keleo-studio) (Adoption Framework) application.
+A template repository for creating and organizing practices and methods using the [Keleo Studio](https://github.com/keleo-labs/keleo-studio) application.
 
 ## Overview
 
-This template provides a standardized directory structure for collecting JSON-formatted practices that follow the SEMAT Essence framework. The practices created here can be authored, visualized, and managed using the Keleo Studio web application.
+This template provides a standardized directory structure for collecting JSON-formatted practices that keleo-studio language schema. The practices created here can be authored, visualized, and managed using the Keleo Studio web application.
 
 ## What is Keleo Studio?
 
@@ -34,8 +34,8 @@ keleo-template/
 
 ### Prerequisites
 
-- Access to Keleo Studio (Adoption Framework) - see the [main repository](https://github.com/keleo-labs/keleo-studio)
-- Basic understanding of SEMAT Essence framework concepts
+- Access to Keleo Studio - see the [main repository](https://github.com/keleo-labs/keleo-studio)
+- Basic understanding of SEMAT language concepts
 - A source methodology or documentation you want to convert into practices
 
 ### Workflow

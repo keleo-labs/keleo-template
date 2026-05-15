@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is a template repository for collecting and organizing JSON-formatted software engineering practices and methods. It is designed to work with **Keleo Studio** (Adoption Framework), a Next.js application for authoring, composing, and visualizing practices based on the SEMAT Essence framework.
+This is a template repository for collecting and organizing JSON-formatted software engineering practices and methods. It is designed to work with **Keleo Studio** , a Next.js application for authoring, composing, and visualizing practices derived and adapted from the SEMAT practice language.
 
 ## Relationship with Keleo Studio
 
@@ -37,7 +37,7 @@ keleo-template/
 
 ### Practice Language Elements
 
-Based on SEMAT Essence framework:
+Based on SEMAT language:
 
 - **Alphas**: Essential elements of concern (e.g., Platform, Team, Opportunity, Stakeholders)
 - **States**: Progressive maturity checkpoints for Alphas (typically 3-6 states)
@@ -45,6 +45,9 @@ Based on SEMAT Essence framework:
 - **ActivitySpaces**: Categories organizing types of work by focus area
 - **WorkProducts**: Artifacts produced by activities with Levels of Detail (LODs)
 - **Competencies**: Skills required for personas, with proficiency levels
+
+New concepts:
+
 - **Personas & PersonaGroups**: Roles and teams mapped to activities
 - **Patterns**: Temporal workflows with PatternViews (lifecycle or narrative-based)
 - **Narratives**: Storytelling contexts using NarrativeTypes (STAR, StoryBrand, ABT, Epic, Lifecycle, etc.)
@@ -64,14 +67,14 @@ The Platform Adoption Essentials baseline organizes content into three Areas of 
 Before editing or after creating practice JSON files, validate them:
 
 ```bash
-cd ../adoptionframework
+cd ../keleo-studio
 node validate-schema.js path/to/practice.json
 ```
 
 Full validation (includes logical integrity checks):
 
 ```bash
-cd ../adoptionframework
+cd ../keleo-studio
 node validate-full.js path/to/practice.json
 ```
 
@@ -161,7 +164,7 @@ Check for common issues:
 ### Running Keleo Studio
 
 ```bash
-cd ../adoptionframework
+cd ../keleo-studio
 npm install
 npm run dev
 ```
